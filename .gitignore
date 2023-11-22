@@ -2,6 +2,7 @@
 parforProgress.txt
 .DS_Store
 
+out*
 *.asv
 *.bmp
 *.jpg
