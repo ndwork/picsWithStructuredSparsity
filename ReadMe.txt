@@ -6,8 +6,9 @@ To create results, there are two run files:
 run_structuredSparseSENSE.m and
 run_generateResults.m
 
-The data that is included is from the SPIRiT v0.3 download, which is shared by Michael Lustig
-at the following web addres:  https://people.eecs.berkeley.edu/~mlustig/Software.html
+The data for these codes to function is shared in the SPIRiT v0.3 directory by Michael Lustig
+at https://people.eecs.berkeley.edu/~mlustig/Software.html.  Simple copy the brain_8ch.mat
+file from that download into the data subdirectory, and then hit run.
 
 run_structuredSparseSENSE simply generates a single image using the technique presented
 in the manuscript with the wavelet transform.
