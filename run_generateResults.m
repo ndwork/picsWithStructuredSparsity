@@ -12,6 +12,7 @@ function run_generateResults( varargin )
   mainOut = './out/';
   [~, nCores] = getNumCores();
   nWorkers = nCores - 5;
+  noiseCoords = [ 1 1 10 10 ];
 
   p = inputParser;
   p.addParameter( 'lambdas', lambdas, @isnumeric );
