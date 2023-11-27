@@ -1,6 +1,6 @@
 
 function mask = mri_makeSampleMask( sMask, nSamples, varargin )
-  % mask = makeSampleMask( sMask, nSamples, vdSig [, vdSig, 'maskType', maskType, 'startMask', startMask ] )
+  % mask = makeSampleMask( sMask, nSamples [, vdSig, 'maskType', maskType, 'startMask', startMask ] )
   %
   % Inputs:
   % sMask - two element array specifying the size of the mask
