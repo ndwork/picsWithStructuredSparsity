@@ -6,6 +6,8 @@ To create results, there are two run files:
 run_structuredSparseSENSE.m and
 run_generateResults.m
 
+This code was created with Matlab 2023a.
+
 The data for these codes to function is shared in the SPIRiT v0.3 directory by Michael Lustig
 at https://people.eecs.berkeley.edu/~mlustig/Software.html.  Copy the brain_8ch.mat
 file from that download into the data subdirectory, and then hit run.
