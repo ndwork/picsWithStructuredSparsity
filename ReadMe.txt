@@ -7,11 +7,11 @@ run_structuredSparseSENSE.m and
 run_generateResults.m
 
 The data for these codes to function is shared in the SPIRiT v0.3 directory by Michael Lustig
-at https://people.eecs.berkeley.edu/~mlustig/Software.html.  Simple copy the brain_8ch.mat
+at https://people.eecs.berkeley.edu/~mlustig/Software.html.  Copy the brain_8ch.mat
 file from that download into the data subdirectory, and then hit run.
 
-run_structuredSparseSENSE simply generates a single image using the technique presented
-in the manuscript with the wavelet transform.
+run_structuredSparseSENSE generates a single image comparing the technique presented in the
+manuscript with other existing techniques.
 run_generateResults creates an output directory and generates results for several reconstruction
 algorithms for a set of regularization parameter values as well as a *.csv file with many
 metrics of quality.  This code depends on CurveLab-2.1.3, which can be gotten from
